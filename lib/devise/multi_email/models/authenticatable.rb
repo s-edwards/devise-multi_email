@@ -16,7 +16,7 @@ module Devise
 
         attr_accessor :current_login_email
 
-        devise :database_authenticatable
+        devise :cas_authenticatable
 
         include AuthenticatableExtensions
       end
